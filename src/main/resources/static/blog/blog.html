@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jian's Blog</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/blogs.css" />
+
+    <script type="text/javascript">       
+      function blog_chief_large(title, size)
+{
+    let str ="<div class=\"div1 col-lg-3"
+
+        + " col-md-4 col-sm-6 col-xs-12 dash\"><div class=\"row\"><div><a href=\"./blogs/"
+        + title
+        + "/main.html\"><img class=\"dash\" src=\"./blogs/"
+        + title
+        + "/images/cover.jpg\" class=\"img-responsive\" alt=\"No image\"></img></a></div></div></div>";
+    document.write(str);
+}
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning fixed-top">
+      <a><img
+          src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        /></a>
+      <a class="navbar-brand" href="windows">&nbsp&nbsp镜中的陌生人</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto topnav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More..</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br /><br /><br /><br />
+
+    <div class="container">
+      <div class="row">
+        <p class="blogCategory">&nbsp&nbsp旅行日记&nbsp</p>
+      </div>
+
+      <div class="row">
+        <script>
+
+          blog_chief_large("xixingriji", 3);            
+
+          blog_chief_large("la_sunset", 3);           
+          blog_chief_large("xixing100", 3);
+          blog_chief_large("nepal2015", 3);        
+         
+          blog_chief_large("la_animals", 3);
+          blog_chief_large("la_panidamic", 3);         
+          blog_chief_large("la_animals", 3);
+          blog_chief_large("la_panidamic", 3);          
+
+
+        </script>
+      </div>
+      <div class="row">
+                <p class="blogCategory">&nbsp&nbsp生活在洛杉矶</p>
+      </div>
+      <div class="row">
+        <script>
+          blog_chief_large("la_animals", 3);
+          blog_chief_large("la_panidamic", 3);          
+          blog_chief_large("la_animals", 3);
+          blog_chief_large("la_panidamic", 3);          
+          blog_chief_large("la_animals", 3);
+          blog_chief_large("la_panidamic", 3);
+        </script>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
